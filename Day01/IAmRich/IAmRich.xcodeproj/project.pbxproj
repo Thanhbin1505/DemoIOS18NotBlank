@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DD9D499917F9B92100F25494 /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = DD9D499817F9B92100F25494 /* ViewController2.m */; };
 		E24D08C917F062300086B565 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E24D08C817F062300086B565 /* Foundation.framework */; };
 		E24D08CB17F062300086B565 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E24D08CA17F062300086B565 /* CoreGraphics.framework */; };
 		E24D08CD17F062300086B565 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E24D08CC17F062300086B565 /* UIKit.framework */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DD9D499717F9B92100F25494 /* ViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
+		DD9D499817F9B92100F25494 /* ViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
 		E24D08C517F062300086B565 /* IAmRich.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IAmRich.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E24D08C817F062300086B565 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E24D08CA17F062300086B565 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -122,6 +125,8 @@
 				E24D08DE17F062300086B565 /* ViewController.m */,
 				E24D08E017F062300086B565 /* Images.xcassets */,
 				E24D08CF17F062300086B565 /* Supporting Files */,
+				DD9D499717F9B92100F25494 /* ViewController2.h */,
+				DD9D499817F9B92100F25494 /* ViewController2.m */,
 			);
 			path = IAmRich;
 			sourceTree = "<group>";
@@ -254,6 +259,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E24D08DF17F062300086B565 /* ViewController.m in Sources */,
+				DD9D499917F9B92100F25494 /* ViewController2.m in Sources */,
 				E24D08D917F062300086B565 /* AppDelegate.m in Sources */,
 				E24D08D517F062300086B565 /* main.m in Sources */,
 			);
@@ -464,6 +470,7 @@
 				E24D08F917F062300086B565 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E24D08FA17F062300086B565 /* Build configuration list for PBXNativeTarget "IAmRichTests" */ = {
 			isa = XCConfigurationList;
@@ -472,6 +479,7 @@
 				E24D08FC17F062300086B565 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
